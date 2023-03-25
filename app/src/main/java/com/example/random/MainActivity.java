@@ -35,10 +35,18 @@ public class MainActivity extends AppCompatActivity {
         for (int i=0; i<numeros.length;i++){
             numeros[i]= (int) (Math.random() *10);
 
-            for( int j=i+1;j< numeros.length;j++){
+            for( int j=0;j< numeros.length;j++){
 
-                if(numeros[i]==numeros[j]){
-                    aux= "igual" ;
+                if(i==j){
+                    j=j+1;
+
+                } else if (numeros[i]==numeros[j]){ {
+
+                    numeros[i]= numeros[i]+10 ;
+
+
+                }
+
                 }
 
             }
