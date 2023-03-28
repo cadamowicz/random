@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             for( int j=0;j< numeros.length;j++){
 
                 if(i==j){
-                    //j=j+1;
+
                     continue;
 
                 } else if (numeros[i]==numeros[j]){ {
